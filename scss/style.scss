@@ -1,2 +1,22 @@
+@import "./variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); 
+$bootstrap-icons-font-dir: "../node_modules/bootstrap-icons/font/fonts";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons";
+@import "./home";
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: $primary;
+}
 
