@@ -1,64 +1,219 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-dark">
-
-<div class="wrapper">
-
-    <aside id="sidebar">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/img/favicon_io (1)/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <!-- SIDEBAR -->
+    <div class="wrapper">
+      <aside id="sidebar">
         <div class="d-flex">
-            <button id="toggle-btn" class="p-4" type="button">
-                <i class="bi bi-grid"></i>
-            </button>
-            <div class="sidebar-logo">
-                <a href="index.html">Andrew.Smithies</a>
-            </div>
+          <button id="toggle-btn" class="p-4" type="button">
+            <i class="bi bi-grid"></i>
+          </button>
+          <div class="sidebar-logo">
+            <a href="index.html">Andrew.Smithies</a>
+          </div>
         </div>
         <ul class="sidebar-nav">
-            <li class="sidebar-item">
-                <a href="index.html" class="sidebar-link">
-                    <i class="bi bi-person"></i>
-                    <span>Profil</span>
-                </a>
-            </li>
-            <li class="sidebar-item">
-                <a href="expériences.html" class="sidebar-link">
-                    <i class="bi bi-building-gear"></i>
-                    <span>Expériences Professionnelles </span>
-                </a>
-            </li>
-            <li class="sidebar-item">
-                <a href="compétences.html" class="sidebar-link">
-                    <i class="bi bi-ui-checks"></i>
-                    <span>Compétences</span>
-                </a>
-            </li>
-            <li class="sidebar-item">
-                <a href="contact.html" class="sidebar-link">
-                    <i class="bi bi-phone-vibrate"></i>
-                    <span>Contact </span>
-                </a>
-            </li>
-            <li class="sidebar-item">
-                <a href="CV A. SMITHIES 2025.pdf" download class="sidebar-link">
-                    <i class="bi bi-download"></i>
-                    <span>Télécharger C.V </span>
-                </a>
-            </li>
+          <li class="sidebar-item">
+            <a href="index.html" class="sidebar-link">
+              <i class="bi bi-person"></i>
+              <span>Profil</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a
+              href="expériences.html"
+              class="sidebar-link d-flex align-items-center"
+            >
+              <i class="bi bi-building-gear me-3"></i>
+              <div class="d-flex flex-column">
+                <span>Expériences Professionnelles</span>
+                <span>& Formations</span>
+              </div>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="compétences.html" class="sidebar-link">
+              <i class="bi bi-ui-checks"></i>
+              <span>Compétences</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="contact.html" class="sidebar-link">
+              <i class="bi bi-phone-vibrate"></i>
+              <span>Contact </span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="contact.html" class="sidebar-link">
+              <i class="bi bi-code"></i>
+              <span>Projets </span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="CV A. SMITHIES 2025.pdf" download class="sidebar-link">
+              <i class="bi bi-download"></i>
+              <span>Télécharger C.V </span>
+            </a>
+          </li>
         </ul>
-    </aside>
+      </aside>
 
-<div class="main">
-    rgreger
-</div>
-</div>
+      <div class="main container">
+        <div class="row">
+          <div
+            class="col-md-6 main-profile-img text-center d-flex align-items-center justify-content-center"
+          >
+            <div class="profile-image-text">
+              <figure class="figure">
+                <div class="image-overlay"></div>
+                <img
+                  src="./img/profile-picture.png"
+                  class="figure-img img-fluid rounded"
+                  alt=""
+                />
+                <figcaption class="text-primary w-100 p-2">
+                  <h3 class="h1 profile-text-name f-josefin">
+                    Andrew Smithies
+                  </h3>
+                  <h3 class="text-secondary profile-text-job f-crimson">
+                    Devéloppeur Web et Web Mobile
+                  </h3>
+                  <div class="socials">
+                    <a
+                      href="https://github.com/AndrewSmithiesDev"
+                      target="_blank"
+                      ><i class="bi bi-github fs-1 p-4"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/andrew-smithies-78789935b/"
+                      target="_blank"
+                      ><i class="bi bi-linkedin fs-1 p-4"></i>
+                    </a>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
 
-<script src="js/script.js"></script>
-</body>
+          <div
+            class="col-md-6 main-profile-text pt-md-5 py-sm-3 d-flex flex-column"
+          >
+            <div class="h1 text-center f-josefin">Profil</div>
+            <span class="h4 text-center f-josefin"
+              >En formation TP Devéloppement Web et Web Mobile</span
+            >
+            <span class="text-center fs-6 f-josefin"
+              >fevrier 2024 à fevrier 2025</span
+            >
+            <span class="text-secondary text-center f-crimson my-3 fs-5"
+              >1 an de programmation <span class="text-primary mx-3">/</span> 10
+              ans d'enseignement des mathématiques</span
+            >
+            <p class="f-josefin lh-base">
+              Ancien professeur de mathématiques actuellement en formation afin
+              de me reconvertir en développeur web. Autodidacte, je dispose
+              d'une solide connaissance de base de plusieurs langages de
+              programmation, j'ai également suivi un bootcamp d'un mois à
+              l'Ecole 42 ainsi qu'un stage de courte durée dans une entreprise
+              de développement d'applications logistiques. Je possède un
+              ensemble extrêmement solide de compétences transférables, y
+              compris le travail indépendant et en équipe, la communication,
+              l'auto-évaluation et la prise de décision.
+            </p>
+            <hr class="border-4 fs-5 border-secondary" />
+            <div class="h1 text-center f-josefin">Résumé des langages</div>
+
+            <div class="skill d-flex align-items-center">
+              <i class="bi bi-filetype-html fs-2 me-3 text-primary"></i>
+              <div class="progress w-100">
+                <div
+                  class="progress-bar bg-secondary d-inline-block f-crimson text-primary"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+            <div class="skill d-flex align-items-center">
+              <i class="bi bi-filetype-css fs-2 me-3 text-primary"></i>
+              <div class="progress w-100">
+                <div
+                  class="progress-bar bg-secondary d-inline-block f-crimson text-primary"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+            <div class="skill d-flex align-items-center">
+              <i class="bi bi-filetype-js fs-2 me-3 text-primary"></i>
+              <div class="progress w-100">
+                <div
+                  class="progress-bar bg-secondary d-inline-block f-crimson text-primary"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+            <div class="skill d-flex align-items-center">
+              <i class="bi bi-filetype-php fs-2 me-3 text-primary"></i>
+              <div class="progress w-100">
+                <div
+                  class="progress-bar bg-secondary d-inline-block f-crimson text-primary"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+            <div class="skill d-flex align-items-center">
+              <i class="bi bi-c-circle fs-2 me-3 text-primary"></i>
+              <div class="progress w-100">
+                <div
+                  class="progress-bar bg-secondary d-inline-block f-crimson text-primary"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  80%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
