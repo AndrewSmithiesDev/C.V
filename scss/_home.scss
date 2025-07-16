@@ -72,6 +72,10 @@ a.sidebar-link:hover {
   border-left: 3px solid $secondary;
 }
 
+a.sidebar-link-active {
+  border-left: 3px solid $secondary;
+}
+
 .main {
   min-height: 100vh;
   width: 100%;
