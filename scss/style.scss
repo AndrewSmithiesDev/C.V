@@ -1,5 +1,4 @@
 @import "./variables";
-@import "../node_modules/@popperjs/";
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); 
 $bootstrap-icons-font-dir: "../node_modules/bootstrap-icons/font/fonts";
@@ -7,8 +6,7 @@ $bootstrap-icons-font-dir: "../node_modules/bootstrap-icons/font/fonts";
 @import "./home";
 @import "./expériences";
 @import "./compétences";
-
-
+@import "./projets";
 
 * {
     box-sizing: border-box;
@@ -31,5 +29,3 @@ body {
   .f-crimson {
     font-family: "Crimson Text", serif;
   }
-
-  
