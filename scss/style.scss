@@ -1,7 +1,7 @@
 @import "./variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); 
-$bootstrap-icons-font-dir: "../node_modules/bootstrap-icons/font/fonts";
+$bootstrap-icons-font-src: "../node_modules/bootstrap-icons/font/fonts";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 @import "./home";
 @import "./expériences";
